@@ -10,17 +10,19 @@
 
 <body>
  <?php require_once "includes/header.php" ?>
- <main class="container">
+ <main class="container" style="max-width: 40%;">
 
   <div class="grid">
 
-   <div></div>
+
    <div>
     <h3>Profile</h3>
     <table>
      <tr>
-      <th></th>
-      <td><img src="img.jpg" alt="" style="width: 150px;height: 150px;object-fit: cover;"></td>
+      <th>Photo</th>
+      <td><img
+        src="https://lh4.googleusercontent.com/Y-Gu9KftZAVYuxyoAiyWIqbKOuRK_mFrPx4cBA5SZb7XmYfhRQW5gONJAUIQ8xUmb-toQW1X7Cp3MSQnCumYZrbGWnSvd0ST25SCEp6muGUclD_7GeQ-Rxdnzva-Oiz85JNl_uZW"
+        alt="" style="width: 150px;height: 150px;object-fit: cover;"></td>
 
      </tr>
      <tr>
@@ -40,12 +42,15 @@
      </tr>
     </table>
     <hr>
+
+   </div>
+   <div>
     <form method="post">
      <textarea name="post" id="" cols="30" rows="10"></textarea>
      <button>Post</button>
     </form>
    </div>
-   <div></div>
+
   </div>
 
  </main>

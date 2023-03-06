@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
  $email = addslashes($_POST['email']);
  $password = addslashes($_POST['password']);
  $date = date('Y-m-d H:i:s');
- //n 
+ //new 
 
  $query = "INSERT into users (	username,	email,	password,	date	) 
  VALUES ('$username',	'$email',	'$password',	'$date')";
